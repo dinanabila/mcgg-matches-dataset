@@ -53,12 +53,12 @@ The dataset consists of **three CSV files**: *(currently data is from season 2)*
 
 ## 🤝 Pull Request Guide
 
-If you'd like to contribute or add new match entries to this dataset, please follow these guidelines:
+If you'd like to contribute or add new match entries to this csv dataset, please follow these guidelines:
 
 1. **Include a Match Screenshot:**  
    Make sure to attach a screenshot of the match result, similar to the ones in the `sources` directory of this repository.  
 
-2. **File Naming:**  
+2. **Screenshot File Naming:**  
    Name the screenshot using the **match ID**, which can be found marked in red (as shown in the example screenshot below).
    ![match_id](https://github.com/dinanabila/mcgg-matches-dataset/blob/12edd496e046197ba3e9260a1ef9540a3cdbd1dd/sources/ss-example.jpg?raw=true)
 
