@@ -8,7 +8,7 @@ This dataset is built on that idea—learning directly from top-tier match histo
 
 The dataset consists of **three CSV files**:
 
-### 🧙‍♂️ `hero.csv`
+### 🧙‍♂️ `hero`
 
 | Column Name | Description |
 |-------------|-------------|
@@ -18,7 +18,7 @@ The dataset consists of **three CSV files**:
 | `star_#`    | Star level of the corresponding # hero |
 
 
-### 🔗 `synergy.csv`
+### 🔗 `synergy`
 
 | Column Name | Description |
 |-------------|-------------|
@@ -27,7 +27,7 @@ The dataset consists of **three CSV files**:
 | `num_#`     | Number of the corresponding # synergy |
 
 
-### 🃏 `card.csv`
+### 🃏 `card`
 
 | Column Name | Description |
 |-------------|-------------|
