@@ -1,4 +1,4 @@
-# Magic Chess Mythic Player Match History Dataset
+# Magic Chess Go Go Mythic Player Match History Dataset
 
 Climbing to Mythic rank in Magic Chess is *tough*! The competition is fierce, and while many players turn to YouTube to follow meta strategies or “templates,” that often takes the fun out of the game. Wouldn’t it be better to dig into actual gameplay data from Mythic-level players and uncover what really works?
 
