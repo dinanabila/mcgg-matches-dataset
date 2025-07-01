@@ -14,11 +14,12 @@ If you'd like to contribute or add new match entries to this dataset, please fol
 
 2. **File Naming:**  
    Name the screenshot using the **match ID**, which can be found marked in red (as shown in the example screenshot below).
+   ![match_id](https://github.com/dinanabila/mcgg-matches-dataset/blob/12edd496e046197ba3e9260a1ef9540a3cdbd1dd/sources/ss-example.jpg?raw=true)
 
-3. **Why This Matters:**  
+4. **Why This Matters:**  
    This helps ensure data accuracy. If there's ever any doubt about an entry, we can refer back to the screenshot for verification.
 
-4. **Season Updates:**  
+5. **Season Updates:**  
    When a new season starts, please create a **new folder** named `season-#` (e.g., `season-3`) and store the dataset there.  
    Synergy and hero stats often change between patches, so keeping datasets separate by season helps maintain data integrity.
 
