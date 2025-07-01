@@ -48,6 +48,8 @@ The dataset consists of **three CSV files**:
   Many Mythic players have hidden match history, and Mythic-tier players appear less frequently in chat compared to lower-tier players.  
   **Workaround:** After identifying a Mythic player’s match, I checked the **other players in the same match**—since they’re likely Mythic too. This way, I could expand the dataset with more high-level matches.
 
+## 🔗 Also Available in Kaggle
+[https://www.kaggle.com/datasets/dinanabb/magic-chess-go-go-mythic-ranked-matches](https://www.kaggle.com/datasets/dinanabb/magic-chess-go-go-mythic-ranked-matches)
 
 ## 🤝 Pull Request Guide
 
