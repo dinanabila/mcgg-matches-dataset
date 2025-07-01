@@ -2,7 +2,51 @@
 
 Climbing to Mythic rank in Magic Chess is *tough*! The competition is fierce, and while many players turn to YouTube to follow meta strategies or “templates,” that often takes the fun out of the game. Wouldn’t it be better to dig into actual gameplay data from Mythic-level players and uncover what really works?
 
-This dataset is built on that idea—learning directly from top-tier match history to uncover the most effective patterns.
+This dataset is built on that idea—learning directly from top-tier match history to uncover the most effective patterns. 
+
+## 📂 Dataset Structure
+
+The dataset consists of **three CSV files**:
+
+### 🧙‍♂️ `hero.csv`
+
+| Column Name | Description |
+|-------------|-------------|
+| `match_id`  | Match ID (visible at the top-left corner of the match history screen) |
+| `ranking`   | Player's final ranking in the match (1 to 4) |
+| `hero_#`    | The hero at position `#` in the lineup |
+| `star_#`    | Star level of the corresponding hero |
+
+
+### 🔗 `synergy.csv`
+
+| Column Name | Description |
+|-------------|-------------|
+| `match_id`  | Match ID (same as above) |
+| `synergy_#` | Name of the synergy formed by the end of the match |
+| `num_#`     | Number of heroes contributing to that synergy |
+
+
+### 🃏 `card.csv`
+
+| Column Name | Description |
+|-------------|-------------|
+| `match_id`  | Match ID (same as above) |
+| `ranking`   | Player's final ranking in the match (1 to 4) |
+| `card_#`    | Cards selected and used during the match |
+
+
+## 🏗️ How It Was Built
+
+- **Manual Data Entry**  
+  All data was entered manually into a spreadsheet, match by match.
+
+- **Finding Mythic Players**  
+  Players were found by monitoring the **World Chat** and identifying those with **Mythic rank**. I tracked 5 Mythic players and followed them to ensure their match history remained accessible and to collect more data over time for future analysis.
+
+- **Overcoming Limitations**  
+  Many Mythic players have hidden match history, and Mythic-tier players appear less frequently in chat compared to lower-tier players.  
+  **Workaround:** After identifying a Mythic player’s match, I checked the **other players in the same match**—since they’re likely Mythic too. This way, I could expand the dataset with more high-level matches.
 
 
 ## 🤝 Pull Request Guide
