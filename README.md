@@ -14,8 +14,8 @@ The dataset consists of **three CSV files**: *(currently data is from season 2)*
 |-------------|-------------|
 | `match_id`  | Match ID (visible at the top-left corner of the match history screen) |
 | `ranking`   | Player's final ranking in the match (1 to 4) |
-| `hero_#`    | The #-th hero in the lineup |
-| `star_#`    | Star level of the corresponding # hero |
+| `hero_#`    | Hero # in the lineup |
+| `star_#`    | Star level of the corresponding hero # |
 
 
 ### 🔗 `synergy`
