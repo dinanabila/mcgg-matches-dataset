@@ -14,8 +14,8 @@ The dataset consists of **three CSV files**:
 |-------------|-------------|
 | `match_id`  | Match ID (visible at the top-left corner of the match history screen) |
 | `ranking`   | Player's final ranking in the match (1 to 4) |
-| `hero_#`    | The hero at position `#` in the lineup |
-| `star_#`    | Star level of the corresponding hero |
+| `hero_#`    | The #-th hero in the lineup |
+| `star_#`    | Star level of the corresponding # hero |
 
 
 ### 🔗 `synergy.csv`
@@ -24,7 +24,7 @@ The dataset consists of **three CSV files**:
 |-------------|-------------|
 | `match_id`  | Match ID (same as above) |
 | `synergy_#` | Name of the synergy formed by the end of the match |
-| `num_#`     | Number of heroes contributing to that synergy |
+| `num_#`     | Number of the corresponding # synergy |
 
 
 ### 🃏 `card.csv`
@@ -33,7 +33,7 @@ The dataset consists of **three CSV files**:
 |-------------|-------------|
 | `match_id`  | Match ID (same as above) |
 | `ranking`   | Player's final ranking in the match (1 to 4) |
-| `card_#`    | Cards selected and used during the match |
+| `card_#`    | Card selected and used during the match |
 
 
 ## 🏗️ How It Was Built
