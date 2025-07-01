@@ -6,7 +6,7 @@ This dataset is built on that idea—learning directly from top-tier match histo
 
 ## 📂 Dataset Structure
 
-The dataset consists of **three CSV files**:
+The dataset consists of **three CSV files**: *(currently data is from season 2)*
 
 ### 🧙‍♂️ `hero`
 
